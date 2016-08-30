@@ -1,0 +1,46 @@
+/**** General Style Sheet ****/
+/* Basic Style */
+body {
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+section {
+  margin: 50px;
+}
+
+#headline{
+	text-align: center;
+}
+
+button #signUp-btn{
+  background: none;
+  border: 1px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+  border: #009688 2px solid;
+}
+	border: #009688 2px solid;
+}
+
+button #signUp-btn:hover{
+	color: white;
+	background-color: #009688;
+	border: none;
+}
+
+footer{
+	border-top: #009688 2px solid;
+}
+
+footer > .container{
+	display: flex;
+}
+
+footer > .container >li{
+	flex-direction: column;
+	justify-content: space-between;
+}

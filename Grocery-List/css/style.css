@@ -1,0 +1,37 @@
+/* Basic Style */
+body {
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+section {
+  display: block;
+  width: 400px;
+/*  margin: 100px auto 0;*/
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li * {
+  float: left;
+}
+
+
+input, button {
+  outline: none;
+}
+button {
+  background: none;
+  border: 1px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+  border: #009688 1px solid;
+}
+button:hover {
+  color: #333;
+}

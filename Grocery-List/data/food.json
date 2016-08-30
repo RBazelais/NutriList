@@ -1,0 +1,142 @@
+var food = [
+  {
+    "name": "rice",
+    "foodGroup": {
+	  "fruit": false,
+      "vegetable": false,
+      "grain": true,
+      "protein": false,
+      "dairy": true
+	}
+  },
+  {
+    "name": "eggs",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": false,
+      "grain": false,
+      "protein": true,
+      "dairy": true
+	}
+  },
+  {
+    "name": "milk",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": false,
+      "grain": false,
+      "protein": false,
+      "dairy": true
+	}
+  },
+  {
+    "name": "apple",
+    "foodGroup": {
+      "fruit": true,
+      "vegetable": false,
+      "grain": false,
+      "protein": false,
+      "dairy": false
+	}
+  },
+  {
+    "name": "orange",
+    "foodGroup": {
+      "fruit": true,
+      "vegetable": false,
+      "grain": false,
+      "protein": false,
+      "dairy": false
+	}
+  },
+  {
+    "name": "water",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": false,
+      "grain": false,
+      "protein": false,
+      "dairy": false
+	}
+  },
+  {
+    "name": "banana",
+    "foodGroup": {
+      "fruit": true,
+      "vegetable": false,
+      "grain": false,
+      "protein": false,
+      "dairy": false
+	}
+  },
+  {
+    "name": "salmon",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": false,
+      "grain": false,
+      "protein": true,
+      "dairy": false
+	}
+  },
+  {
+    "name": "chicken",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": false,
+      "grain": false,
+      "protein": true,
+      "dairy": false
+    }
+  },
+  {
+    "name": "tofu",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": false,
+      "grain": false,
+      "protein": true,
+      "dairy": false
+	}
+  }, 
+  {
+    "name": "potatoes",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": true,
+      "grain": false,
+      "protein": false,
+      "dairy": false
+    }
+  },
+  {
+    "name": "broccoli",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": true,
+      "grain": false,
+      "protein": false,
+      "dairy": false
+	}
+  },
+  {
+    "name": "carrots",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": true,
+      "grain": false,
+      "protein": false,
+      "dairy": false
+	}
+  },
+  {
+    "name": "corn",
+    "foodGroup": {
+      "fruit": false,
+      "vegetable": false,
+      "grain": true,
+      "protein": false,
+      "dairy": false
+	}
+  }  
+];
